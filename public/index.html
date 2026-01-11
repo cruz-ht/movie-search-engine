@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <link rel="icon" href="/img/tabIcon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">Movie Finder</h1>
+    </header>
+
+    <p class="description">Not sure what to watch next?<br>Search for a movie you love and discover similar films you'll enjoy !</p>
+
+    <form>
+        <input type="text" placeholder="Search...">
+        <button type="submit" class="button">
+            <img src="img/searchBtn.png" alt="Search Button">
+        </button>
+    </form>
+
+
+    <div id="loading" class="hidden">
+        <p>Loading movies...</p>
+    </div>
+
+    <!-- ERROR MESSAGE -->
+    <div id="errorMessage" class="hidden"></div>
+
+    <!-- MOVIE LIST -->
+    <div id="moviesList"></div>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                <img src="img/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                <img src="img/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x.com/" target="_blank" aria-label="Twitter">
+                <img src="img/twitter.png" alt="Twitter">
+            </a>
+        </div>
+
+        <p class="copyright">@movie finder</p>
+    </footer>
+
+    <script src='app.js'></script>
+</body>
+</html>

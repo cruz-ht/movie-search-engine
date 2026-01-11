@@ -1,0 +1,19 @@
+{
+  "name": "movie-recommendations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}
