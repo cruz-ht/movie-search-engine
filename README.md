@@ -4,7 +4,7 @@ A web application that allows users to search for movies using The Movie Databas
 
 ## Live Demo
 
-**Deployed Application:** [Movie Finder Live](https://movie-search-engine-tau.vercel.app/)
+**Deployed Application:** [Movie Finder Live](https://movie-search-engine-ctcwk9wpz-jessicas-projects-8696b1a4.vercel.app/)
 
 
 
