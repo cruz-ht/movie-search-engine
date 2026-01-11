@@ -9,6 +9,10 @@ const error = document.querySelector('#errorMessage')
 
 const IMAGE_BASE = 'https://image.tmdb.org/t/p/w500'
 
+    // for deploy
+    const API_BASE = window.location.origin
+
+
     searchForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
